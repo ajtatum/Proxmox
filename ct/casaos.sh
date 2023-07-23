@@ -19,11 +19,11 @@ EOF
 header_info
 echo -e "Loading..."
 APP="CasaOS"
-var_disk="8"
-var_cpu="2"
-var_ram="2048"
+var_disk="64"
+var_cpu="4"
+var_ram="4096"
 var_os="debian"
-var_version="11"
+var_version="12"
 variables
 color
 catch_errors
