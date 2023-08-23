@@ -19,9 +19,9 @@ EOF
 header_info
 echo -e "Loading..."
 APP="Plex"
-var_disk="8"
-var_cpu="2"
-var_ram="2048"
+var_disk="256"
+var_cpu="6"
+var_ram="8192"
 var_os="ubuntu"
 var_version="22.04"
 variables
@@ -29,7 +29,7 @@ color
 catch_errors
 
 function default_settings() {
-  CT_TYPE="0"
+  CT_TYPE="1"
   PW=""
   CT_ID=$NEXTID
   HN=$NSAPP
@@ -45,7 +45,7 @@ function default_settings() {
   NS=""
   MAC=""
   VLAN=""
-  SSH="no"
+  SSH="yes"
   VERB="no"
   echo_default
 }
